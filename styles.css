@@ -1,6 +1,8 @@
 * {
   font-family: sans-serif;
   line-height: 1.8;
+  margin: 0;
+  padding: 0;
 }
 
 .center {
@@ -20,15 +22,22 @@ h1 {
 
 h2 {
   font-weight: bolder;
+  margin-left: 10px;
+}
+
+h3{
+    margin-left: 10px;
 }
 
 p {
   font-size: 18px;
+  margin-left: 10px;
 }
 
 li {
   font-size: 18px;
   list-style: square;
+  margin-left: 30px;
 }
 
 button {
@@ -42,7 +51,7 @@ button {
   padding: 9px 9px;
   cursor: pointer;
   border: none;
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 button:hover {
@@ -54,8 +63,13 @@ button:hover {
 
 a {
   color: black;
+  margin-left: 10px;
 }
 
 a:hover {
   text-decoration: none;
+}
+
+span{
+    margin-left: 10px;
 }
