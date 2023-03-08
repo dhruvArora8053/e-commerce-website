@@ -1,15 +1,21 @@
 * {
   font-family: sans-serif;
+  line-height: 1.8;
 }
 
-body {
-  border: 8px solid black;
+.center {
+  width: 825px;
+  margin: auto;
+  border: 5px solid black;
 }
 
 h1 {
   text-align: center;
   background-color: rgb(204, 202, 202);
   text-transform: uppercase;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -26,21 +32,24 @@ li {
 }
 
 button {
-  height: 40px;
-  width: 150px;
+  height: 60px;
+  width: 100%;
   font-size: 19px;
   background-color: black;
   color: white;
   font-family: sans-serif;
   text-transform: uppercase;
   padding: 9px 9px;
+  cursor: pointer;
+  border: none;
+margin-top: 10px;
 }
 
 button:hover {
   background-color: white;
   color: black;
-  border: none;
   font-weight: bold;
+  border-top: 5px solid black;
 }
 
 a {
