@@ -65,6 +65,8 @@ button:hover {
 a {
   color: black;
   margin-left: 10px;
+  display: inline-block;
+  margin-bottom: 15px;
 }
 
 a:hover {
@@ -110,4 +112,30 @@ span {
   z-index: 1;
 }
 
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 8px;
+}
 
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-brown {
+  background-color: brown;
+}
