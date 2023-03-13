@@ -110,39 +110,4 @@ span {
   z-index: 1;
 }
 
-.colors {
-  width: 10px;
-  height: 10px;
-  background-color: red;
-  float: left;
-}
 
-/* .color-1{
-  margin-left: 40px;
-} */
-
-.color-1 {
-  display: inline-block;
-  margin-left: 40px;
-}
-
-.color-2 {
-  display: inline-block;
-  margin-left: 40px;
-}
-
-.color-3 {
-  display: inline-block;
-}
-
-.color-4 {
-  display: inline-block;
-}
-
-.color-5 {
-  display: inline-block;
-}
-
-.color-6 {
-  display: inline-block;
-}
